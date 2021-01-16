@@ -5,3 +5,7 @@ git config credential.helper store
 
 ## online Markdown Editor
 https://dillinger.io/
+
+调试core dump
+使core文件生成在当前文件夹：
+sudo bash -c 'echo core.%e.%p > /proc/sys/kernel/core_pattern'
